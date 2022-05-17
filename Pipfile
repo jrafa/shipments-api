@@ -9,6 +9,7 @@ djangorestframework = "*"
 drf-writable-nested = "*"
 python-decouple = "*"
 psycopg2-binary = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 coverage = "*"
