@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+
+  shipemnts-api-db:
+    image: postgres:11-alpine
+    environment:
+      - POSTGRES_USER=alphabet
+      - POSTGRES_PASSWORD=a1b2c3
+      - POSTGRES_DB=shipments
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - 5432:5432
